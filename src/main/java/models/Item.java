@@ -19,5 +19,4 @@ public class Item {
     private int quantity = 0;
     private double price;
 
-
 }

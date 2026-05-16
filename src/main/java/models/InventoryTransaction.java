@@ -20,7 +20,7 @@ public class InventoryTransaction {
 
     private int changeAmount;
 
-    private LocalDateTime timestamp;
+    private LocalDateTime transactionDate = LocalDateTime.now();
 
     private String notes;
 
