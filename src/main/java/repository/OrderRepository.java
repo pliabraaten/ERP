@@ -3,5 +3,5 @@ package repository;
 import models.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface OrderDAO extends JpaRepository<Order, Long> {
+public interface OrderRepository extends JpaRepository<Order, Long> {
 }
