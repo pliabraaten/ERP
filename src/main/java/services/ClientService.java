@@ -1,4 +1,6 @@
-package services.impl;
+package services;
+
+import models.Client;
 
 import java.util.List;
 
