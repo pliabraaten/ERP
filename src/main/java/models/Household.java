@@ -21,7 +21,7 @@ public class Household {
     private String zipCode;
 
     // TODO: verify this is correct and appropriate
-    // Persist/Merge -> when household is saved/updated, client is also
+    // Persist/Merge -> when household is saved/updated, customer is also
     @OneToMany(mappedBy = "household", fetch = FetchType.LAZY, cascade = { CascadeType.PERSIST, CascadeType.MERGE })
-    private List<Client> members = new ArrayList<>();
+    private List<Customer> members = new ArrayList<>();
 }

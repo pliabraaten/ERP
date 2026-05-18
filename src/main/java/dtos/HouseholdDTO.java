@@ -1,7 +1,7 @@
 package dtos;
 
 import lombok.Data;
-import models.Client;
+import models.Customer;
 
 import java.util.List;
 
@@ -14,6 +14,6 @@ public class HouseholdDTO {
     private String city;
     private String state;
     private String zipCode;
-    private List<Client> members;
+    private List<Customer> members;
 
 }

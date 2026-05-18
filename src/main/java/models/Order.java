@@ -28,8 +28,8 @@ public class Order {
     private LocalDateTime orderDate = LocalDateTime.now();
 
     @ManyToOne
-    @JoinColumn(name = "client_id", nullable = false)
-    private Client client;
+    @JoinColumn(name = "customer_id", nullable = false)
+    private Customer customer;
 
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
     private List<Item> orderItems = new ArrayList<>();

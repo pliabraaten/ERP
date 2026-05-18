@@ -1,10 +1,10 @@
 package services;
 
-import models.Client;
+import models.Customer;
 
 public interface OrderService {
 
-    List<Client> findClients();
+    List<Customer> findCustomers();
 
 
 }

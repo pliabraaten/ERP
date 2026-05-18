@@ -4,7 +4,7 @@ import lombok.Data;
 import models.Household;
 
 @Data
-public class ClientDTO {
+public class CustomerDTO {
 
     private Long id;
     private String name;

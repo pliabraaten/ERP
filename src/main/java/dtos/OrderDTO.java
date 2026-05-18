@@ -1,7 +1,7 @@
 package dtos;
 
 import lombok.Data;
-import models.Client;
+import models.Customer;
 import models.Hog;
 import models.Item;
 import models.Order;
@@ -16,7 +16,7 @@ public class OrderDTO {
     private Order.OrderStatus status;
     private Order.OrderType type;
     private LocalDateTime orderDate;
-    private Client client;
+    private Customer customer;
     private List<Item> orderItems;
     private List<Hog> orderHogs;
     private double discount;
